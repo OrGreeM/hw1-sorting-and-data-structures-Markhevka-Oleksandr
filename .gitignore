@@ -1,2 +1,2 @@
-*.csv
-*.txt
+students.csv
+__pycache__

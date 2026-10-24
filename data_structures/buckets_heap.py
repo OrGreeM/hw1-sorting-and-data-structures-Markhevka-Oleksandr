@@ -3,7 +3,7 @@ import heapq
 from bisect import bisect_left, insort
 from heapq import heapify, heappop, heappush
 
-from database.student import Student
+from data_structures.database.student import Student
 
 
 def to_cents(rating: float) -> int:

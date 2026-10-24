@@ -1,7 +1,7 @@
 """Варіант 1 (базовий): список + хеш-таблиця. Топ-100 через heapq.nlargest."""
 import heapq
 
-from database.student import Student
+from data_structures.database.student import Student
 
 def to_cents(rating: float) -> int:
     return round(rating * 100)

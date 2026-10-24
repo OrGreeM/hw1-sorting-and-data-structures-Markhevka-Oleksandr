@@ -6,7 +6,7 @@ from collections import defaultdict
 from fractions import Fraction
 
 
-from database.student import Student
+from data_structures.database.student import Student
 from hash_scan import HashScanDB
 from sorted_array import SortedArrayDB
 from buckets_heap import BucketsHeapDB, bucket_of

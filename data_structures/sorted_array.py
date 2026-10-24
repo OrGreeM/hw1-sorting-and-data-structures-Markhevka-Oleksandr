@@ -1,7 +1,7 @@
 """Варіант 2: відсортований масив (рейтинг, email) + бінарний пошук."""
 from bisect import bisect_left, insort
 
-from database.student import Student
+from data_structures.database.student import Student
 
 
 def to_cents(rating: float) -> int:
