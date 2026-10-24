@@ -1,5 +1,5 @@
 """Звіряє кожен варіант із повільним, але очевидно правильним еталоном.
-Запуск з кореня репозиторію:  python test_variants.py"""
+Запуск з кореня репозиторію: py -m data_structures.DS_tests"""
 import copy
 import random
 from collections import defaultdict
@@ -7,9 +7,9 @@ from fractions import Fraction
 
 
 from data_structures.database.student import Student
-from hash_scan import HashScanDB
-from sorted_array import SortedArrayDB
-from buckets_heap import BucketsHeapDB, bucket_of
+from data_structures.hash_scan import HashScanDB
+from data_structures.sorted_array import SortedArrayDB
+from data_structures.buckets_heap import BucketsHeapDB, bucket_of
 
 
 def to_cents(rating):

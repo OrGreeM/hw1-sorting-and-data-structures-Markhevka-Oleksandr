@@ -1,8 +1,8 @@
 """Експерименти до задачі І. Запуск з кореня репозиторію (де лежить students.csv):
 
-  python experiments.py compare            # операцій за 10 с для трьох варіантів
-  python experiments.py scaling            # час операцій і пам'ять для 10 розмірів бази
-  python experiments.py scaling --variant 3
+  py -m data_structures.benchmark.benchmark compare            # операцій за 10 с для трьох варіантів
+  py -m data_structures.benchmark.benchmark scaling            # час операцій і пам'ять для 10 розмірів бази
+  py -m data_structures.benchmark.benchmark scaling --variant 3
 
 Результати: results_compare.csv, results_scaling_v<N>.csv (далі їх обробляє analyze.py).
 """

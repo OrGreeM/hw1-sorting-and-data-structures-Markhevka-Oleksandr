@@ -1,8 +1,8 @@
 """Обробка результатів scaling: таблиця, регресія для найповільнішої операції, графіки.
 
-  python -m data_structures.benchmark.analyze                      # знайде results_scaling_v*.csv
-  python -m data_structures.benchmark.analyze --file results_scaling_v3.csv
-  python -m data_structures.benchmark.analyze --basis "n,log n,1"  # власні f1, f2, f3
+  py -m data_structures.benchmark.analyze                      # знайде results_scaling_v*.csv
+  py -m data_structures.benchmark.analyze --file results_scaling_v3.csv
+  py -m data_structures.benchmark.analyze --basis "n,log n,1"  # власні f1, f2, f3
 
 Файли читаються з папки скрипта і записуються в неї ж:
 summary.csv, regression.txt, fit.png, memory.png
