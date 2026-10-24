@@ -1,0 +1,4 @@
+n,builtin_mean_ms,builtin_std_ms,counting_mean_ms,counting_std_ms,speedup_counting
+1000,0.0826,0.0046,0.4924,0.0224,0.17
+10000,1.5100,0.0337,2.0488,0.1277,0.74
+100000,25.6220,2.4524,33.5022,4.2469,0.76
